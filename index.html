@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alaka P | Data Scientist & Machine Learning Engineer Portfolio</title>
+    <meta name="description" content="Portfolio of Alaka P - Data Scientist, ML Engineer, and Aspiring Data Engineer based in Bangalore, India. Showcasing predictive modeling, ETL pipelines, and scalable data solutions.">
+    <meta name="keywords" content="Data Scientist, Machine Learning Engineer, Data Engineer, Python, SQL, Deep Learning, ETL, Bangalore, Portfolio">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+    <!-- Background Decoration Grid -->
+    <div class="bg-grid-overlay"></div>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#hero" class="logo" id="nav-logo">
+                <span class="logo-accent">&lt;</span>Alaka.P<span class="logo-accent">/&gt;</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content reveal-item">
+                    <div class="badge-role">
+                        <span class="pulse-dot"></span> Available for Opportunities
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight-text">Alaka</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Aspiring Data Scientist | ML Engineer</h2>
+                    <p class="hero-tagline">"Building intelligent systems with Machine Learning, Data Analytics, and Data Engineering."</p>
+                    <p class="hero-description">
+                        Data Science professional with hands-on experience in Machine Learning, Deep Learning, SQL, Data Warehousing, and ETL pipelines. Passionate about solving real-world business problems through predictive analytics and scalable data solutions.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="https://drive.google.com/file/d/1N0l4C1pcjO8HHCB1wGtYai15OcFFFQG0/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="btn-resume">
+                            <i class="fa-solid fa-download"></i> Download Resume
+                        </a>
+                        <a href="#projects" class="btn btn-secondary" id="btn-view-projects">
+                            View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-outline" id="btn-contact-me">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal-item">
+                    <div class="canvas-wrapper">
+                        <canvas id="neural-canvas"></canvas>
+                        <!-- Floating Glassmorphic ML Info Cards -->
+                        <div class="floating-info-card card-one">
+                            <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+                            <div>
+                                <span class="card-label">Focus Area</span>
+                                <span class="card-value">ML & Data Analytics</span>
+                            </div>
+                        </div>
+                        <div class="floating-info-card card-two">
+                            <div class="card-icon"><i class="fa-solid fa-database"></i></div>
+                            <div>
+                                <span class="card-label">ETL Pipelines</span>
+                                <span class="card-value">Data Engineering</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <a href="#about" aria-label="Scroll to About Section">
+                    <span class="mouse-wheel"></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <span class="sub-title">About Me</span>
+                    <h2 class="section-title">Professional Summary</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-text reveal-item">
+                        <p class="summary-paragraph">
+                            Data Science professional with internship experience in Machine Learning, Deep Learning, SQL, Statistical Analysis, and Data Engineering workflows.
+                        </p>
+                        <p class="summary-paragraph">
+                            Experienced in developing predictive models, ETL pipelines, analytical solutions, and end-to-end machine learning applications. Dedicated to refining code quality, designing efficient star schemas, and transforming complex datasets into actionable strategic intelligence.
+                        </p>
+                        <div class="personal-info-grid">
+                            <div class="info-item">
+                                <span class="info-label"><i class="fa-solid fa-map-marker-alt"></i> Location:</span>
+                                <span class="info-value">Bangalore, India</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i class="fa-solid fa-envelope"></i> Email:</span>
+                                <span class="info-value"><a href="mailto:alakamalu01@gmail.com">alakamalu01@gmail.com</a></span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i class="fa-brands fa-linkedin"></i> LinkedIn:</span>
+                                <span class="info-value"><a href="https://linkedin.com/in/alakap01" target="_blank" rel="noopener noreferrer">linkedin.com/in/alakap01</a></span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i class="fa-brands fa-github"></i> GitHub:</span>
+                                <span class="info-value"><a href="https://github.com/alakamalu" target="_blank" rel="noopener noreferrer">github.com/alakamalu</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-stats reveal-item">
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-icon"><i class="fa-solid fa-briefcase"></i></div>
+                                <h3 class="stat-number" id="stat-internships">2</h3>
+                                <p class="stat-desc">Internships</p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon"><i class="fa-solid fa-code"></i></div>
+                                <h3 class="stat-number" id="stat-projects">3</h3>
+                                <p class="stat-desc">Major Projects</p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon"><i class="fa-solid fa-images"></i></div>
+                                <h3 class="stat-number" id="stat-images">6500+</h3>
+                                <p class="stat-desc">Images Processed</p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon"><i class="fa-solid fa-chart-line"></i></div>
+                                <h3 class="stat-number" id="stat-accuracy">92%</h3>
+                                <p class="stat-desc">Validation Accuracy</p>
+                            </div>
+                            <div class="stat-card col-span-2">
+                                <div class="stat-icon"><i class="fa-solid fa-users"></i></div>
+                                <h3 class="stat-number" id="stat-records">7043</h3>
+                                <p class="stat-desc">Customer Records Analyzed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <span class="sub-title">My Toolbox</span>
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <!-- Category Tabs -->
+                <div class="skills-tabs reveal-item">
+                    <button class="tab-btn active" data-category="all" id="tab-all">All Skills</button>
+                    <button class="tab-btn" data-category="programming" id="tab-programming">Programming</button>
+                    <button class="tab-btn" data-category="ml" id="tab-ml">Machine Learning</button>
+                    <button class="tab-btn" data-category="dl" id="tab-dl">Deep Learning</button>
+                    <button class="tab-btn" data-category="de" id="tab-de">Data Engineering</button>
+                    <button class="tab-btn" data-category="analytics" id="tab-analytics">Analytics & Visualization</button>
+                    <button class="tab-btn" data-category="genai" id="tab-genai">Generative AI</button>
+                    <button class="tab-btn" data-category="tools" id="tab-tools">Tools</button>
+                </div>
+
+                <!-- Floating Badges Showcase -->
+                <div class="skills-badges-container reveal-item" id="floating-badges-container">
+                    <!-- Programming -->
+                    <span class="skill-badge floating-badge" data-category="programming">Python</span>
+                    <span class="skill-badge floating-badge" data-category="programming">SQL</span>
+                    
+                    <!-- ML -->
+                    <span class="skill-badge floating-badge" data-category="ml">Scikit-Learn</span>
+                    <span class="skill-badge floating-badge" data-category="ml">Machine Learning</span>
+                    <span class="skill-badge floating-badge" data-category="ml">Classification</span>
+                    <span class="skill-badge floating-badge" data-category="ml">Regression</span>
+                    <span class="skill-badge floating-badge" data-category="ml">Feature Engineering</span>
+                    <span class="skill-badge floating-badge" data-category="ml">Model Evaluation</span>
+                    <span class="skill-badge floating-badge" data-category="ml">Pandas</span>
+                    <span class="skill-badge floating-badge" data-category="ml">NumPy</span>
+                    
+                    <!-- DL -->
+                    <span class="skill-badge floating-badge" data-category="dl">TensorFlow</span>
+                    <span class="skill-badge floating-badge" data-category="dl">Deep Learning</span>
+                    <span class="skill-badge floating-badge" data-category="dl">CNN</span>
+                    <span class="skill-badge floating-badge" data-category="dl">Image Classification</span>
+                    
+                    <!-- DE -->
+                    <span class="skill-badge floating-badge" data-category="de">ETL Pipelines</span>
+                    <span class="skill-badge floating-badge" data-category="de">Data Warehousing</span>
+                    <span class="skill-badge floating-badge" data-category="de">Star Schema</span>
+                    <span class="skill-badge floating-badge" data-category="de">Medallion Architecture</span>
+                    
+                    <!-- Analytics -->
+                    <span class="skill-badge floating-badge" data-category="analytics">EDA</span>
+                    <span class="skill-badge floating-badge" data-category="analytics">Statistical Analysis</span>
+                    <span class="skill-badge floating-badge" data-category="analytics">Probability</span>
+                    <span class="skill-badge floating-badge" data-category="analytics">Data Cleaning</span>
+                    <span class="skill-badge floating-badge" data-category="analytics">Data Preprocessing</span>
+                    <span class="skill-badge floating-badge" data-category="analytics">Power BI</span>
+                    <span class="skill-badge floating-badge" data-category="analytics">Matplotlib</span>
+                    
+                    <!-- GenAI -->
+                    <span class="skill-badge floating-badge" data-category="genai">LLMs</span>
+                    <span class="skill-badge floating-badge" data-category="genai">RAG</span>
+                    <span class="skill-badge floating-badge" data-category="genai">Prompt Engineering</span>
+                    
+                    <!-- Tools -->
+                    <span class="skill-badge floating-badge" data-category="tools">Git</span>
+                    <span class="skill-badge floating-badge" data-category="tools">GitHub</span>
+                    <span class="skill-badge floating-badge" data-category="tools">Jupyter Notebook</span>
+                </div>
+
+                <!-- Structured Categories Detailed Grid -->
+                <div class="skills-grid reveal-item">
+                    <!-- Programming & Tools -->
+                    <div class="skill-cat-card" data-cat-match="programming,tools">
+                        <div class="cat-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Programming & Tools</h3>
+                        </div>
+                        <ul class="cat-skills-list">
+                            <li><strong>Python</strong> <span class="tech-sub">Core Logic & Data Stack</span></li>
+                            <li><strong>SQL</strong> <span class="tech-sub">Relational Querying & DB Design</span></li>
+                            <li><strong>Git & GitHub</strong> <span class="tech-sub">Version Control & CI/CD</span></li>
+                            <li><strong>Jupyter Notebook</strong> <span class="tech-sub">Interactive Prototyping</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Machine Learning & Deep Learning -->
+                    <div class="skill-cat-card" data-cat-match="ml,dl">
+                        <div class="cat-header">
+                            <i class="fa-solid fa-gears"></i>
+                            <h3>ML & Deep Learning</h3>
+                        </div>
+                        <ul class="cat-skills-list">
+                            <li><strong>Scikit-Learn</strong> <span class="tech-sub">Classification, Regression, Pipeline</span></li>
+                            <li><strong>TensorFlow & CNN</strong> <span class="tech-sub">Deep Architectures for Vision</span></li>
+                            <li><strong>Feature Engineering</strong> <span class="tech-sub">Extraction, Scaling, Encoding</span></li>
+                            <li><strong>Model Evaluation</strong> <span class="tech-sub">ROC-AUC, F1-Score, Cross-Val</span></li>
+                            <li><strong>Image Classification</strong> <span class="tech-sub">Augmentation, Preprocessing</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Data Engineering -->
+                    <div class="skill-cat-card" data-cat-match="de">
+                        <div class="cat-header">
+                            <i class="fa-solid fa-network-wired"></i>
+                            <h3>Data Engineering</h3>
+                        </div>
+                        <ul class="cat-skills-list">
+                            <li><strong>ETL Pipelines</strong> <span class="tech-sub">Data Ingestion, Cleansing & Loading</span></li>
+                            <li><strong>Data Warehousing</strong> <span class="tech-sub">Star Schema & Snowflake Models</span></li>
+                            <li><strong>Medallion Architecture</strong> <span class="tech-sub">Bronze, Silver & Gold Structuring</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Analytics & Generative AI -->
+                    <div class="skill-cat-card" data-cat-match="analytics,genai">
+                        <div class="cat-header">
+                            <i class="fa-solid fa-chart-pie"></i>
+                            <h3>Analytics & GenAI</h3>
+                        </div>
+                        <ul class="cat-skills-list">
+                            <li><strong>EDA & Cleaning</strong> <span class="tech-sub">Outlier Detection, Imputation</span></li>
+                            <li><strong>Statistical Analysis</strong> <span class="tech-sub">Hypothesis Testing, Probabilities</span></li>
+                            <li><strong>Power BI & Matplotlib</strong> <span class="tech-sub">Dynamic Dashboards & Plotting</span></li>
+                            <li><strong>LLMs & RAG</strong> <span class="tech-sub">Semantic Search & Prompt Engineering</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section section-padding">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <span class="sub-title">Career Path</span>
+                    <h2 class="section-title">Professional Experience</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="timeline reveal-item">
+                    <div class="timeline-line"></div>
+                    
+                    <!-- Experience 1 -->
+                    <div class="timeline-item reveal-item">
+                        <div class="timeline-badge"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date"><i class="fa-solid fa-calendar-alt"></i> Nov 2025 – Feb 2026</span>
+                                <h3 class="timeline-role">Data Science Intern</h3>
+                                <h4 class="timeline-company">Meritshot</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <ul class="highlights-list">
+                                    <li>Developed machine learning solutions using Python, Scikit-Learn, Pandas and SQL.</li>
+                                    <li>Designed ETL pipelines and preprocessing workflows.</li>
+                                    <li>Conducted EDA and statistical analysis to extract key insights.</li>
+                                    <li>Created analytical reports and technical documentation.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2 -->
+                    <div class="timeline-item reveal-item">
+                        <div class="timeline-badge"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date"><i class="fa-solid fa-calendar-alt"></i> Aug 2023 – Sep 2023</span>
+                                <h3 class="timeline-role">Machine Learning Intern</h3>
+                                <h4 class="timeline-company">Take It Smart (OPC) Pvt Ltd</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <ul class="highlights-list">
+                                    <li>Developed predictive models for operational data.</li>
+                                    <li>Processed 500+ observations daily, ensuring quality and accuracy.</li>
+                                    <li>Performed feature engineering and selection to improve model output.</li>
+                                    <li>Collaborated on analytical insights and model improvements.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Training Section -->
+        <section id="training" class="training-section section-padding">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <span class="sub-title">Hands-on learning, practical implementation, and continuous skill development.</span>
+                    <h2 class="section-title">Professional Training</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="timeline reveal-item">
+                    <div class="timeline-line"></div>
+                    
+                    <!-- Training Item -->
+                    <div class="timeline-item reveal-item">
+                        <div class="timeline-badge"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date"><i class="fa-solid fa-calendar-alt"></i> Nov 2025 – Feb 2026</span>
+                                <h3 class="timeline-role">AI & Data Science Trainee</h3>
+                                <h4 class="timeline-company">Nirmaan Organization</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <ul class="highlights-list">
+                                    <li>Strengthened expertise in Machine Learning, Deep Learning, Generative AI, Statistical Analysis, and Predictive Analytics through hands-on projects and practical implementation.</li>
+                                    <li>Built end-to-end projects in Customer Churn Prediction, Plant Disease Detection, and Data Warehousing, focusing on model development, evaluation, and analytical workflows.</li>
+                                    <li>Applied Python, SQL, TensorFlow, and Scikit-learn to solve real-world business and analytics problems.</li>
+                                </ul>
+                                
+                                <div class="training-skills-badges">
+                                    <span class="skill-badge-mini">Machine Learning</span>
+                                    <span class="skill-badge-mini">Generative AI</span>
+                                    <span class="skill-badge-mini">Python</span>
+                                    <span class="skill-badge-mini">Statistical Analysis</span>
+                                    <span class="skill-badge-mini">TensorFlow</span>
+                                    <span class="skill-badge-mini">Predictive Analytics</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <span class="sub-title">Portfolio Showcase</span>
+                    <h2 class="section-title">Major Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card reveal-item" id="project-plant-disease">
+                        <div class="project-image-container">
+                            <div class="project-image-placeholder">
+                                <i class="fa-solid fa-leaf project-bg-icon"></i>
+                                <div class="image-gradient-overlay"></div>
+                            </div>
+                            <span class="project-category">Deep Learning</span>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tech">
+				<span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>CNN</span>
+                            </div>
+                            <h3 class="project-title">Plant Disease Detection System</h3>
+                            <p class="project-description">
+                                Built a deep learning application for plant disease classification using CNN. Trained on 6500 leaf images to identify plant health issues, achieving over 92% validation accuracy with custom preprocessing and data augmentation.
+                            </p>
+                            <div class="project-metrics">
+                                <div class="metric-badge">
+                                    <span class="metric-val">92%</span>
+                                    <span class="metric-lbl">Accuracy</span>
+                                </div>
+                                <div class="metric-badge">
+                                    <span class="metric-val">6500</span>
+                                    <span class="metric-lbl">Images</span>
+                                </div>
+                                <div class="metric-badge">
+                                    <span class="metric-val">CNN</span>
+                                    <span class="metric-lbl">Architecture</span>
+                                </div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/alakamalu/plant-disease-detection.git" target="_blank" rel="noopener noreferrer" class="proj-link btn-code" aria-label="View source code on GitHub">
+                                    <i class="fa-brands fa-github"></i> Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card reveal-item" id="project-churn-prediction">
+                        <div class="project-image-container">
+                            <div class="project-image-placeholder pl-churn">
+                                <i class="fa-solid fa-users-slash project-bg-icon"></i>
+                                <div class="image-gradient-overlay"></div>
+                            </div>
+                            <span class="project-category">Machine Learning</span>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Flask</span>
+                                <span>Scikit-Learn</span>
+                            </div>
+                            <h3 class="project-title">Customer Churn Prediction System</h3>
+                            <p class="project-description">
+                                Developed an end-to-end churn prediction system. Conducted exploratory data analysis, engineered relevant features, evaluated multiple models, and selected Logistic Regression (0.85 ROC-AUC) for real-time Flask deployment.
+                            </p>
+                            <div class="project-metrics">
+                                <div class="metric-badge">
+                                    <span class="metric-val">7043</span>
+                                    <span class="metric-lbl">Records</span>
+                                </div>
+                                <div class="metric-badge">
+                                    <span class="metric-val">0.85</span>
+                                    <span class="metric-lbl">ROC-AUC</span>
+                                </div>
+                                <div class="metric-badge font-small">
+                                    <span class="metric-val">Production</span>
+                                    <span class="metric-lbl">Deployment</span>
+                                </div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/alakamalu/customer-churn-ml-app.git" target="_blank" rel="noopener noreferrer" class="proj-link btn-code" aria-label="View source code on GitHub">
+                                    <i class="fa-brands fa-github"></i> Repository
+                                </a>
+                                <a href="https://customer-churn-ml-app.onrender.com" target="_blank" rel="noopener noreferrer" class="proj-link btn-live" aria-label="Launch Live Demo">
+                                    <i class="fa-solid fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card reveal-item" id="project-dwh">
+                        <div class="project-image-container">
+                            <div class="project-image-placeholder pl-dwh">
+                                <i class="fa-solid fa-database project-bg-icon"></i>
+                                <div class="image-gradient-overlay"></div>
+                            </div>
+                            <span class="project-category">Data Engineering</span>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tech">
+                                <span>SQL Server</span>
+                                <span>ETL</span>
+                                <span>Data Modeling</span>
+                            </div>
+                            <h3 class="project-title">Data Warehouse & Analytics</h3>
+                            <p class="project-description">
+                                Designed a star schema warehouse utilizing Medallion Architecture. Integrated raw datasets from ERP and CRM, configured ETL ingestion runs, and engineered advanced analytics views for business queries.
+                            </p>
+                            <div class="project-metrics">
+                                <div class="metric-badge">
+                                    <span class="metric-val">Bronze</span>
+                                    <span class="metric-lbl">Layer</span>
+                                </div>
+                                <div class="metric-badge">
+                                    <span class="metric-val">Silver</span>
+                                    <span class="metric-lbl">Layer</span>
+                                </div>
+                                <div class="metric-badge">
+                                    <span class="metric-val">Gold</span>
+                                    <span class="metric-lbl">Layer</span>
+                                </div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/alakamalu/SQL-Data-WareHouse-Project.git" target="_blank" rel="noopener noreferrer" class="proj-link btn-code" aria-label="View source code on GitHub">
+                                    <i class="fa-brands fa-github"></i> Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section section-padding">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <span class="sub-title">Academic Background</span>
+                    <h2 class="section-title">Education</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="timeline reveal-item">
+                    <div class="timeline-line"></div>
+                    
+                    <!-- Education 1 -->
+                    <div class="timeline-item reveal-item">
+                        <div class="timeline-badge"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date"><i class="fa-solid fa-calendar-alt"></i> 2021 – 2024</span>
+                                <h3 class="timeline-role">Bachelor of Engineering</h3>
+                                <h4 class="timeline-company">Information Science and Engineering</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="education-meta"><strong>University:</strong> VTU</p>
+                                <p class="education-meta"><strong>Academic Standing:</strong> CGPA 7.6</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education 2 -->
+                    <div class="timeline-item reveal-item">
+                        <div class="timeline-badge"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date"><i class="fa-solid fa-calendar-alt"></i> 2018 – 2021</span>
+                                <h3 class="timeline-role">Diploma in Computer Science</h3>
+                                <h4 class="timeline-company">EK Nayanar Memorial Govt Polytechnic College</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="education-meta"><strong>Academic Standing:</strong> CGPA 8.23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <span class="sub-title">Get In Touch</span>
+                    <h2 class="section-title">Let's Build Something Impactful with Data</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Info Panel -->
+                    <div class="contact-info-panel reveal-item">
+                        <h3>Let's Connect</h3>
+                        <p class="contact-intro-text">
+                            I am open to discussions about internships, junior roles, and remote positions in Data Science, Machine Learning, and Data Engineering. Let's talk!
+                        </p>
+                        <div class="contact-info-details">
+                            <a href="mailto:alakamalu01@gmail.com" class="contact-card">
+                                <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="contact-card-content">
+                                    <span class="card-label">Email Me</span>
+                                    <span class="card-value">alakamalu01@gmail.com</span>
+                                </div>
+                            </a>
+                            <a href="https://linkedin.com/in/alakap01" target="_blank" rel="noopener noreferrer" class="contact-card">
+                                <div class="contact-card-icon"><i class="fa-brands fa-linkedin"></i></div>
+                                <div class="contact-card-content">
+                                    <span class="card-label">LinkedIn</span>
+                                    <span class="card-value">linkedin.com/in/alakap01</span>
+                                </div>
+                            </a>
+                            <a href="https://github.com/alakamalu" target="_blank" rel="noopener noreferrer" class="contact-card">
+                                <div class="contact-card-icon"><i class="fa-brands fa-github"></i></div>
+                                <div class="contact-card-content">
+                                    <span class="card-label">GitHub</span>
+                                    <span class="card-value">github.com/alakamalu</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="contact-form-panel reveal-item">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="form-name">Name</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-user input-icon"></i>
+                                    <input type="text" id="form-name" name="name" required placeholder="Your full name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Email</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-envelope input-icon"></i>
+                                    <input type="email" id="form-email" name="email" required placeholder="Your email address">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-comment-alt input-icon textarea-icon"></i>
+                                    <textarea id="form-message" name="message" rows="5" required placeholder="Describe your project, role, or query..."></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit" id="btn-submit-form">
+                                <span id="submit-text">Send Message</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            <div class="form-message-container" id="form-feedback"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="copyright">&copy; <span id="year">2026</span> Alaka P. All rights reserved.</p>
+            <p class="designed-by">Designed and Developed by <span class="footer-name">Alaka P</span></p>
+            <div class="footer-socials">
+                <a href="mailto:alakamalu01@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://linkedin.com/in/alakap01" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/alakamalu" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
