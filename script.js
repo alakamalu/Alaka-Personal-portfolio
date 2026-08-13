@@ -305,7 +305,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // ---------------------------------------------------------
+    /*// ---------------------------------------------------------
     // 7. Contact Form Handling
     // ---------------------------------------------------------
     const contactForm = document.getElementById('contact-form');
@@ -372,5 +372,5 @@ document.addEventListener('DOMContentLoaded', () => {
                 }, 400);
             }, 6000);
         }
-    }
+    }*/
 });

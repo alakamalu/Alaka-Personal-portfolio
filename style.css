@@ -1215,7 +1215,8 @@ input, textarea, button {
    ========================================================================== */
 .contact-grid {
     display: grid;
-    grid-template-columns: 0.9fr 1.1fr;
+    grid-template-columns: minmax(0, 680px);
+    justify-content: center;
     gap: 48px;
     align-items: stretch;
 }
